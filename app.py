@@ -43,7 +43,7 @@ if st.button("Summarize Video", type="secondary"):
                 st.write(line)
         else:
             """
-            ## Generated Summary
+            ## Upload Error: Video Size
             You need to submit a video that is equal to or less than 2MB. Summary could not be
             generated. Try another video.
             """
