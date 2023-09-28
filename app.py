@@ -62,5 +62,5 @@ st.divider()
 """
 ## Reference Links
 - [Github repository for project](https://github.com/chiroro-jr/frame2word)
-- [Colab notebook used to train the model]("https://colab.research.google.com/drive/1yt6999Pba9VY1UebsKOxbiZFfjw_vnlc?usp=sharing")
+- [Colab notebook used to train the model](https://colab.research.google.com/drive/1yt6999Pba9VY1UebsKOxbiZFfjw_vnlc?usp=sharing)
 """
