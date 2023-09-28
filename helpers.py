@@ -19,8 +19,8 @@ def get_frames(uploaded_video):
     # open the temporary video using OpenCV
     cap = cv2.VideoCapture(temp_file.name)
 
-    # Select 10 frames evenly spaced throughout the video
-    frame_indices = np.linspace(0, cap.get(cv2.CAP_PROP_FRAME_COUNT) - 1, num=2, dtype=int)
+    # Select 5 frames evenly spaced throughout the video
+    frame_indices = np.linspace(0, cap.get(cv2.CAP_PROP_FRAME_COUNT) - 1, num=5, dtype=int)
 
     # get 10 frames from the video to use to generate a summary
     frames = list()
