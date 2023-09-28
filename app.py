@@ -11,6 +11,10 @@ target_size = (224, 224)
 # Frame2Word
 An model that summarizes videos using image captioning. Built using Tensorflow (VGG16 + LSTMs) and
 OpenCV (for reading video frames)
+> **Disclaimer**
+> Due to memory limits on Streamlit (1GB RAM per application), I was only able to summarize the video using 2 frames.
+> Additional frames would cause the application to crash as it ran out of memory. I tried to add some memory optimization
+> techniques with things such as dynamic imports and `del` on unused objects.
 """
 
 st.divider()
